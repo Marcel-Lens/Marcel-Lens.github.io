@@ -316,3 +316,10 @@
 accomplishment tr th{
   width: 33.3%;
 }
+
+  
+    @media screen and (max-width: 600px) {
+      .column {
+        width: 100%;
+      }
+    }

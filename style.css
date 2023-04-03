@@ -260,6 +260,7 @@
 
     }
     .about-imgbox{
+     
       border: 3px solid  rgb(115, 143, 221);
       width: 520px;
       height: 620px;
@@ -267,14 +268,21 @@
       margin-bottom: 10px;
       margin-left: 70px;
       border-radius:0px 20px 0px 20px ;
+      background-image: url('sense.jpg');
+      background-size: cover;
 
     }
     #img{
       width: 520px;
       height: 620px;
       border-radius:0px 20px 0px 20px ;
+       
 
     }
+    .about-imgbox:hover {
+  background-image: url('image2.jpg');
+  width: 521px;
+}
     .about-textbox p{
       text-align: center;
       font-size: 18px;
